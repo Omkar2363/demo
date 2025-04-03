@@ -10,4 +10,10 @@ public class demoController {
     public String testDemo(){
         return "Demo tested Successfully";
     }
+
+
+    @GetMapping("/test2")
+    public String testDemo2(){
+        return "Demo tested Successfully again";
+    }
 }
